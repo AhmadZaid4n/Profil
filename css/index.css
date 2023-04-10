@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, cyan, magenta);
+}
+
+main .container {
+    padding: 10px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+main .container .profil img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+main .container .media-sosial {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+main .container .media-sosial button {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    transition: all .3s ease-in-out;
+}
+
+main .container .media-sosial button:hover {
+    transform: translateX(10px);
+}
